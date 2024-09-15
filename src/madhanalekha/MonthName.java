@@ -12,7 +12,7 @@ package madhanalekha;
 import java.util.Scanner;
 public class MonthName {
     public static void main(String[] args){
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:MADHANALEKHA L\nReg No:2303717710422026");
         Scanner scanner=new Scanner(System.in);
         System .out.println("Enter the month number(1-12):");
         int month=scanner.nextInt();

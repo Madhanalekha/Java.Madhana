@@ -9,7 +9,7 @@ public class HelloWorld {
 
     
     public static void main(String[] args) {
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name : Madhanalekha l \nReg No:2303717710422026");
         System.out.println("Hello World!");
         
     }

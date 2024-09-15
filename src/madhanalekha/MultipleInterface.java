@@ -35,7 +35,7 @@ class Author implements Reader, Writer {
 }
 public class MultipleInterface {
      public static void main(String[] args) {
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("NamE : MADHANALEKHA L \nReg No:2303717710422026");
         Author author = new Author("Alice", "science fiction");
         author.read();  
         author.write(); 

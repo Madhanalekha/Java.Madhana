@@ -11,7 +11,7 @@ package madhanalekha;
 import java.util.Scanner;
 public class PalindromeWhile {
     public static void main(String[] args){
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:MADHANALEKHA L\nReg No:2303717710422026");
         Scanner scanner=new Scanner(System.in);
         System .out.println("Enter the number:");
         int number=scanner.nextInt();

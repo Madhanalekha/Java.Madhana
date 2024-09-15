@@ -46,7 +46,7 @@ class Director extends Manager {
 
 public class Multilevelinheritance {
     public static void main(String[] args) {
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:MADHANALEKHA L \nReg No:2303717710422026");
         Director director = new Director("Alice", "Sales", " America");
 
         

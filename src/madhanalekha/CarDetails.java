@@ -30,7 +30,7 @@ class Car {
 
 public class CarDetails {
      public static void main(String[] args) {
-         System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+         System.out.println("Name:MADHANALEKHA L\nReg No:2303717710422026");
        
         Car car1 = new Car("Ford Mustang", 2021, "Black", 12500.5);
         Car car2 = new Car("BMW X5", 2019, "Silver", 30000.2);

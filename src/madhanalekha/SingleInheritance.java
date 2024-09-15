@@ -28,7 +28,7 @@ class Student extends Person {
 }
 public class SingleInheritance {
      public static void main(String[] args) {
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:MADHANALEKHA L\nReg No:2303717710422026");
         Student student = new Student("Alex", 20, "Harvard University");
         
         student.introduce();

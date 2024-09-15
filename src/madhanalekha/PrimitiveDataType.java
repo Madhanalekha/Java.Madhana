@@ -10,7 +10,7 @@ package madhanalekha;
  */
 public class PrimitiveDataType {
     public static void main(String[] args){
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:MADHANALEKHA L \nReg No:2303717710422026");
         byte a=120;
         short b=13300;
         int c=410020;
