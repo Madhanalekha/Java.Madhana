@@ -29,7 +29,7 @@ public class SerialDeserial {
    
     public static void main(String[] args) {
         
-        //System.out.println("Name: J.Jeevanandhini\nReg No: 2303717710422026");
+        System.out.println("Name:Madhanalekha L\nReg No: 2303717710422026");
       
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("employee.txt"))) {
             Employee emp = new Employee("Madhanalekha", 128, "Engineering");

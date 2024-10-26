@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class HashSetEx {
    
     public static void main(String[] args) {
-        System.out.println("Name :Manikandan M\nReg no. : 2303717710421028");
+        System.out.println("Name :Madhanalekha L\nReg no. : 2303717710421026");
         HashSet<Integer> numbers = new HashSet<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of integers you want to add:");

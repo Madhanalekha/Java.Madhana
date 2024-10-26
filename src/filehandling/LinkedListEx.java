@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class LinkedListEx {
   
     public static void main(String[] args) {
-        System.out.println("Name :Manikandan M \nReg no. : 2303717710421028");
+        System.out.println("Name :Madhanlekha L \nReg no. : 2303717710421026");
         LinkedList<String> fruits = new LinkedList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of fruits you want to add:");

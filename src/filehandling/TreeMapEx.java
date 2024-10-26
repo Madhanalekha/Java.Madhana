@@ -14,7 +14,7 @@ import java.util.Map;
 public class TreeMapEx {
   
     public static void main(String[] args) {
-        System.out.println("Name :Manikandan M \nReg no : 2303717710421028");
+        System.out.println("Name : Madhanalekha L \nReg no : 2303717710421026");
         TreeMap<String, Integer> studentScores = new TreeMap<>();
 
         Scanner scanner = new Scanner(System.in);
