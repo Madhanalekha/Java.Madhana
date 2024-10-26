@@ -9,8 +9,8 @@ package oop;
  * @author madha
  */
 class Employee{
-    private double salary;
-    private String name;
+    double salary;
+    String name;
     Employee(String n,double s){
         name=n;
         salary=s;
@@ -30,6 +30,20 @@ class Employee{
     void raiseSalary(double percent){
         salary+=salary *percent/100;
     }
+    /*public boolean equals(Object obj){
+       if(this==obj){
+      return true;
+       }
+      if(obj == NULL){
+      return false;
+      }
+     if(this.getClass() !=obj.getClass())
+     return false;
+       Employee e=(Employee)obj;
+       return ((this.name.equals(e.name))&& (this.salary.equals(e.salary)));
+}
+*/
+
 }
 class Manager extends Employee{
     double bonus;
@@ -59,7 +73,7 @@ public class Demo {
         Employee e2=new Manager("Ramya", 68000,2000);
         System.out.println(e2.getSalary());
         Employee[] emp=new Employee[5];//if we alocate maore memory for the array but we could not assign the value to the variable it will give you exception message
-        emp[0]=new Employee("raj",20000);
+        emp[0]=new Employee("Ram",50000);
         emp[1]=new Employee("Muthir",23400);
         emp[2]=new Employee("Anir",27000);
         emp[3]=m1;
@@ -74,5 +88,6 @@ public class Demo {
         Manager m3;
         if(emp[2] instanceof Manager)// which is used to check is the obj is either superclass or subclass
             m3=(Manager)emp[2];
+        System.out.println(e1.equals(emp[0]));
     }
 }
