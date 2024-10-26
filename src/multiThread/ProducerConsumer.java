@@ -63,7 +63,7 @@ class Consumer extends Thread {
 }  
 public class ProducerConsumer {  
 public static void main(String[] args) { 
-    System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+    System.out.println("Name:Madhalekha L\nReg No:2303717710422026");
     Buffer buffer = new Buffer();  
     new Producer(buffer).start(); 
     new Consumer(buffer).start();  

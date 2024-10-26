@@ -65,7 +65,7 @@ class ThreadThree extends Thread {
 public class MultiThread {
     public static void main(String[] args) {
         
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:Madhanalekha L \nReg No:2303717710422026");
         ThreadOne thread1 = new ThreadOne("Thread-1", Thread.MIN_PRIORITY);
         ThreadTwo thread2 = new ThreadTwo("Thread-2", Thread.NORM_PRIORITY);
         ThreadThree thread3 = new ThreadThree("Thread-3", Thread.MAX_PRIORITY);

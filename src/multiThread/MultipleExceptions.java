@@ -10,7 +10,7 @@ public class MultipleExceptions {
   
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
+        System.out.println("Name:Madhanalekha l\nReg No:2303717710422026");
         try {
             // 1. ArithmeticException 
             System.out.print("Enter a number: ");

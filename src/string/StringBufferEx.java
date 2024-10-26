@@ -11,34 +11,33 @@ package string;
 import java.lang.StringBuffer;
 public class StringBufferEx {
     public static void main(String[] args) {
+        System.out.println("Name:Madhanalekha L\nReg No:2303717710422026");
    
         StringBuffer sb = new StringBuffer("Welcome");
 
- 
         sb.append(" to Java");
-        System.out.println("After append: " + sb);  // Output: Welcome to Java
-
+        System.out.println("After append: " + sb);  
+       
         sb.insert(7, " all");
-        System.out.println("After insert: " + sb);  // Output: Welcome all to Java
+        System.out.println("After insert: " + sb);  
         sb.replace(7, 10, "everyone");
-        System.out.println("After replace: " + sb);  // Output: Welcome everyone to Java
+        System.out.println("After replace: " + sb);  
 
         sb.delete(7, 15);
-        System.out.println("After delete: " + sb);  // Output: Welcome to Java
+        System.out.println("After delete: " + sb); 
 
         sb.reverse();
-        System.out.println("After reverse: " + sb);  // Output: avaJ ot emocleW
-       
+        System.out.println("After reverse: " + sb);     
         sb.reverse();
-      
-        System.out.println("Length: " + sb.length());  // Output: 15
+        
+        System.out.println("Length: " + sb.length()); 
  
-        System.out.println("Capacity : " + sb.capacity());  // Output: 31 (default + content)
+        System.out.println("Capacity : " + sb.capacity());  
     
-        sb.setCharAt(0, 'w');
-        System.out.println("After setCharAt: " + sb);  // Output: welcome to Java
+        sb.setCharAt(4, 'w');
+        System.out.println("After setCharAt: " + sb);  
         
         String sub = sb.substring(0, 7);
-        System.out.println("Substring (0, 7): " + sub);  // Output: welcome
+        System.out.println("Substring (0, 7): " + sub); 
     }
 }
