@@ -21,4 +21,3 @@ public class ReadAndDisplay {
         
     }
     
-R
